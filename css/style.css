@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #444;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .container {
@@ -22,32 +22,34 @@ body {
 
 .container .box-wrapper {
     width: 100%;
-    height: 100px;
     display: flex;
-    align-items: center;
     justify-content: center;
     background-color: #666;
     padding: 2rem;
     margin: 1rem;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .container .box-wrapper .box-item {
     width: 100px;
     height: 100px;
     background-color: #fff;
-    margin: 1rem;
+    margin: 0 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
     font-weight: bold;
+}
+
+.draggable {
+    opacity: .25;
 }
